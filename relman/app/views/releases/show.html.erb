@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @release.name %>
+</p>
+
+<p>
+  <b>Relnum:</b>
+  <%= @release.relnum %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @release.description %>
+</p>
+
+<p>
+  <b>Bugsdelivered:</b>
+  <%= @release.bugsdelivered %>
+</p>
+
+
+<%= link_to 'Edit', edit_release_path(@release) %> |
+<%= link_to 'Back', releases_path %>

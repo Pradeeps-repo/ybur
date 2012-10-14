@@ -1,0 +1,8 @@
+--- 
+open_files: 
+  - config/database.yml
+  - Gemfile
+  - Rakefile
+  - db/seeds.rb
+  - config/routes.rb
+  - config/application.rb

@@ -1,0 +1,21 @@
+--- 
+cursor_positions: 
+  - :path: config/database.yml
+    :cursor_offset: 256
+    :timestamp: 2012-10-11 13:40:41.028000 +01:00
+  - :path: Gemfile
+    :cursor_offset: 529
+    :timestamp: 2012-10-11 08:02:29.087000 +01:00
+  - :path: Rakefile
+    :cursor_offset: 0
+    :timestamp: 2012-10-09 10:36:43.726000 +01:00
+  - :path: db/seeds.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-09 10:36:45.021000 +01:00
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-09 10:36:43.782000 +01:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-09 10:36:43.785000 +01:00
+files_to_retain: 0

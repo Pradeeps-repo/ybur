@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @environment.name %>
+</p>
+
+<p>
+  <b>Ip:</b>
+  <%= @environment.IP %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @environment.description %>
+</p>
+
+<p>
+  <b>Default:</b>
+  <%= @environment.default %>
+</p>
+
+<%= link_to 'All', environments_path %> |
+<%= link_to 'Edit', edit_environment_path(@environment) %> |
+<%= link_to 'Back', environments_path %>
